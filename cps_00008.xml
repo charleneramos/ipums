@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-61f74ac0-b297-013c-6f29-0242ac170004-cps_00008.dat-cps.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS CPS Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'cps_00008.dat'</subTitl>
+        <IDNo>ddi2-61f74ac0-b297-013c-6f29-0242ac170004-cps_00008.dat-cps.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2024-07-30">July 30, 2024</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract cps_00008.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2024-07-30">July 30, 2024</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="cps">IPUMS CPS</serName>
+        <serInfo>DOI:10.18128/D030.V11.0</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2024-07-30"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Demographics Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Data Quality Flags Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-3030">
+        <timePrd date="2024-01" event="single">2024-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3031">
+        <timePrd date="2024-02" event="single">2024-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3032">
+        <timePrd date="2024-03" event="single">2024-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3033">
+        <timePrd date="2024-04" event="single">2024-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3034">
+        <timePrd date="2024-05" event="single">2024-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3035">
+        <timePrd date="2024-06" event="single">2024-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact URI="http://cps.ipums.org/" affiliation="IPUMS">IPUMS CPS</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS CPS database must cite it appropriately. The citation should include the following:
+
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren, Daniel Backman, Annie Chen, Grace Cooper, Stephanie Richards, Megan Schouweiler, and Michael Westberry. IPUMS CPS: Version 11.0 [dataset]. Minneapolis, MN: IPUMS, 2023. https://doi.org/10.18128/D030.V11.0
+
+The licensing agreement for use of IPUMS CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/]]></citReq>
+        <conditions><![CDATA[Users of IPUMS CPS data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use these data, but you may not charge a fee for the data if you distribute it to others.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS CPS should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) Use it for GOOD -- never for EVIL.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Test R]]></notes>
+    <notes>This extract is a revision of the user's previous extract, ID 16542032.</notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>cps_00008.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="YEAR" dcml="0" files="ExtractData" intrvl="contin" name="YEAR">
+  <location EndPos="4" StartPos="1" width="4"/>
+  <labl>Survey year</labl>
+  <txt><![CDATA[YEAR reports the year in which the survey was conducted.  YEARP is repeated on person records.]]></txt>
+  <codInstr><![CDATA[CodesYEAR is a 4-digit numeric value.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SERIAL" dcml="0" files="ExtractData" intrvl="contin" name="SERIAL">
+  <location EndPos="9" StartPos="5" width="5"/>
+  <labl>Household serial number</labl>
+  <txt><![CDATA[SERIAL is an identifying number unique to each household in a given survey month and year.  All person records are assigned the same serial number as the household record they follow.  A combination of YEAR, MONTH, and SERIAL provides a within-sample unique identifier for every household in IPUMS-CPS; YEAR, MONTH, SERIAL, and PERNUM uniquely identify every person within a single sample.
+
+SERIAL is a new value generated for IPUMS-CPS and should not be confused with the household serial number created by the Census Bureau and included in the original CPS data.]]></txt>
+  <codInstr><![CDATA[CodesSERIAL is a 5-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="MONTH" dcml="0" files="ExtractData" intrvl="discrete" name="MONTH">
+  <location EndPos="11" StartPos="10" width="2"/>
+  <labl>Month</labl>
+  <txt><![CDATA[MONTH indicates the calendar month of the CPS interview.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>January</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>February</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>March</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>April</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>May</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>June</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>July</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>August</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>September</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>October</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>November</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>December</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HWTFINL" dcml="4" files="ExtractData" intrvl="contin" name="HWTFINL">
+  <location EndPos="21" StartPos="12" width="10"/>
+  <labl>Household weight, Basic Monthly</labl>
+  <txt><![CDATA[HWTFINL is a household-level weight that should be used to generate statistics about households. The CPS uses a complex stratified sampling scheme, and HWTFINL must be used to produce unbiased household-level statistics from IPUMS-CPS basic monthly samples. For analyses of March Annual Social and Economic (ASEC) data, researchers should use HWTSUPP (This variable was renamed. Please see this renaming scheme for more information.). For individual-level analyses, researchers should use WTFINL, WTSUPP, or EARNWT. 
+
+HWTFINL generally has the same value as WTFINL for the household head or reference person. Vacant housing units and households that could not be interviewed due to residents' absence or refusal to participate have a value of zero in HWTFINL; such sampled units were included in the public use CPS data beginning in 1988.]]></txt>
+  <codInstr><![CDATA[CodesHWTFINL is a 10-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSID" dcml="0" files="ExtractData" intrvl="contin" name="CPSID">
+  <location EndPos="35" StartPos="22" width="14"/>
+  <labl>CPSID, household record</labl>
+  <txt><![CDATA[CPSID is an IPUMS-CPS defined variable that uniquely identifies households across CPS samples. The first six digits of CPSID index the four-digit year and two-digit month that the household was first in the CPS. CPSID allows users to link a household record across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSID value based on a combination of household identifiers. CPSID will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, a household will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. CPSID Extensive documentation about the creation of CPSID is available elsewhere.
+
+CPSID may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. Users should note that ASEC oversample households (as indicated by ASECOVERH) will always have a CPSID value of 0.
+
+Users may also want to see CPSIDP for more information about linking individuals across time using a person-specific version of CPSID.]]></txt>
+  <codInstr><![CDATA[CodesCPSID is a 14-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ASECFLAG" dcml="0" files="ExtractData" intrvl="discrete" name="ASECFLAG">
+  <location EndPos="36" StartPos="36" width="1"/>
+  <labl>Flag for ASEC</labl>
+  <txt><![CDATA[ASECFLAG indicates whether the respondent is part of the ASEC or the March Basic. This variable is useful for users who wish to distinguish ASEC and March Basic files in their extracts. See further information about the ASEC versus the March Basic Monthly Files.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>ASEC</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>March Basic</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PERNUM" dcml="0" files="ExtractData" intrvl="contin" name="PERNUM">
+  <location EndPos="38" StartPos="37" width="2"/>
+  <labl>Person number in sample unit</labl>
+  <txt><![CDATA[PERNUM numbers all persons within each household consecutively (starting with "1") in the order in which they are listed in the original CPS data.  When combined with YEAR , MONTH, and SERIAL, PERNUM uniquely identifies each person within IPUMS-CPS samples, though not across IPUMS-CPS samples.]]></txt>
+  <codInstr><![CDATA[CodesPERNUM is a 2-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WTFINL" dcml="4" files="ExtractData" intrvl="contin" name="WTFINL">
+  <location EndPos="52" StartPos="39" width="14"/>
+  <labl>Final Basic Weight</labl>
+  <txt><![CDATA[WTFINL is the final person-level weight that should be used in analyses of basic monthly data. 
+
+When analyzing ASEC data, researchers should use the person weight ASECWT. For analyses including the variables EARNWEEK, HOURWAGE, PAIDHOUR, and UNION, researchers should use the EARNWT variable. 
+
+WTFINL is the second stage weight in CPS (see technical documentation). It is based on the inverse probability of selection into the sample and adjustments for the following factors: failure to obtain an interview; sampling within large sample units; adjustments to the known distribution of the entire population according to stage, age, sex, race, and Hispanic ethnicity; and allotting a weight of zero to populations not sampled in other monthly surveys (i.e., persons in the Hispanic oversample and members of the armed forces in ASEC samples).]]></txt>
+  <codInstr><![CDATA[CodesWTFINL is a 14-digit numeric variable with four implied decimals.  That is, 12345678901234 should be interpreted as 1234567890.1234.  The IPUMS command files automatically make the necessary adjustment, so no further adjustment is needed.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSIDP" dcml="0" files="ExtractData" intrvl="contin" name="CPSIDP">
+  <location EndPos="66" StartPos="53" width="14"/>
+  <labl>CPSID, person record</labl>
+  <txt><![CDATA[CPSIDP is an IPUMS CPS defined variable that uniquely identifies individuals across CPS samples. The first six digits of CPSIDP index the four-digit year and two-digit month that the household was first in the CPS. CPSIDP allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSIDP value to this line number. CPSIDP will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, individuals will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. Extensive documentation about the creation of CPSIDP is available elsewhere.
+
+Users should note that it is important to verify CPSIDP linkages with AGE, SEX, and RACE. In some cases CPSIDP will result in erroneous links, which are due to errors in the source data. Cases with the same CPSIDP value may also have inconsistent responses across samples due to errors on the part of the respondent or in recording the response. Ultimately, it is up to the individual researcher to determine the acceptability of the linkages made using CPSIDP. 
+
+CPSIDP may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. 
+
+To get started using CPSIDP, users may want to sort their data file by CPSIDP and MISH to create a person-time file. 
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDP value of 0. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.]]></txt>
+  <codInstr><![CDATA[CodesCPSIDP is a 14-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSIDV" dcml="0" files="ExtractData" intrvl="contin" name="CPSIDV">
+  <location EndPos="81" StartPos="67" width="15"/>
+  <labl>Validated Longitudinal Identifier</labl>
+  <txt><![CDATA[CPSIDV is an IPUMS CPS-created variable that uniquely identifies individuals across CPS samples. In addition to linking records across the CPS 4-8-4 rotation pattern, CPSIDV only makes links between those records whose SEX and RACE values do not change and whose AGE values change in expected ways over time. 
+
+CPSIDV is based on CPSIDP and so there are some structural similarities between them. The first six digits of CPSIDV are identical to CPSIDP - the four-digit year and two-digit month that the household was first in the CPS. Like CPSIDP, CPSIDV allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern. 
+
+Only records that link using CPSIDP that also have consistent race and sex values and age values that increase at least one but not more than two years over the course of the 16-month CPS rotation are linkable using CPSIDV. As a result, linkage rates using CPSIDV are slightly lower than those achieved using CPSIDP. However, linkages created with CPSIDV do not require the recommended post-linking verification steps recommended for use with CPSIDP links. Users should note that original, unharmonized values of age, sex, and race are used in the creation of CPSIDV. The procedure and validation criteria for creating CPSIDV are described in detail in A Holistic Approach to Validating Current Population Survey Panel Data. 
+
+CPSIDV may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. 
+
+To get started using CPSIDV, users may want to sort their data file by CPSIDV and MISH to create a person-time file. 
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDV value of 0. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.]]></txt>
+  <codInstr><![CDATA[CodesCPSIDV is a 15-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SEX" dcml="0" files="ExtractData" intrvl="discrete" name="SEX">
+  <location EndPos="82" StartPos="82" width="1"/>
+  <labl>Sex</labl>
+  <txt><![CDATA[SEX gives each person's sex.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Male</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Female</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="RACE" dcml="0" files="ExtractData" intrvl="discrete" name="RACE">
+  <location EndPos="85" StartPos="83" width="3"/>
+  <labl>Race</labl>
+  <txt><![CDATA[Racial categories in the CPS have been more consistent than racial categories in the census.  Up through 2002, the number of race categories ranged from 3 (white, negro, and other) to 5 (white, black, American Indian/Eskimo/Aleut, Asian or Pacific Islander, and other).   Beginning in 2003, respondents could report more than one race, and the number of codes rose to 21, and then up to 26 codes in 2013.]]></txt>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>White</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Black</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>American Indian/Aleut/Eskimo</labl>
+  </catgry>
+  <catgry>
+    <catValu>650</catValu>
+    <labl>Asian or Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>651</catValu>
+    <labl>Asian only</labl>
+  </catgry>
+  <catgry>
+    <catValu>652</catValu>
+    <labl>Hawaiian/Pacific Islander only</labl>
+  </catgry>
+  <catgry>
+    <catValu>700</catValu>
+    <labl>Other (single) race, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>801</catValu>
+    <labl>White-Black</labl>
+  </catgry>
+  <catgry>
+    <catValu>802</catValu>
+    <labl>White-American Indian</labl>
+  </catgry>
+  <catgry>
+    <catValu>803</catValu>
+    <labl>White-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>804</catValu>
+    <labl>White-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>805</catValu>
+    <labl>Black-American Indian</labl>
+  </catgry>
+  <catgry>
+    <catValu>806</catValu>
+    <labl>Black-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>807</catValu>
+    <labl>Black-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>808</catValu>
+    <labl>American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>809</catValu>
+    <labl>Asian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>810</catValu>
+    <labl>White-Black-American Indian</labl>
+  </catgry>
+  <catgry>
+    <catValu>811</catValu>
+    <labl>White-Black-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>812</catValu>
+    <labl>White-American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>813</catValu>
+    <labl>White-Asian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>814</catValu>
+    <labl>White-Black-American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>815</catValu>
+    <labl>American Indian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>816</catValu>
+    <labl>White-Black--Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>817</catValu>
+    <labl>White-American Indian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>818</catValu>
+    <labl>Black-American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>819</catValu>
+    <labl>White-American Indian-Asian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>820</catValu>
+    <labl>Two or three races, unspecified</labl>
+  </catgry>
+  <catgry>
+    <catValu>830</catValu>
+    <labl>Four or five races, unspecified</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="QSEX" dcml="0" files="ExtractData" intrvl="discrete" name="QSEX">
+  <location EndPos="87" StartPos="86" width="2"/>
+  <labl>Data quality flag for SEX</labl>
+  <txt><![CDATA[Data quality flag for SEX. In some Basic Monthly samples between 1976 and 1988, there are several household head/wife of head couples that are of the same sex in the input data. In these instances, IPUMS allocates SEX such that heads of household are male and wives of household heads are female, as the CPS allocates either sex or marital status and relationship to head variables in later years to disallow same-sex couples in the data. These records have a QSEX value of 12 and amount to only 84 cases.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Allocated by IPUMS</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var>
+<var ID="QRACE" dcml="0" files="ExtractData" intrvl="discrete" name="QRACE">
+  <location EndPos="89" StartPos="88" width="2"/>
+  <labl>Data quality flag for RACE</labl>
+  <txt><![CDATA[Data quality flag for RACE.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change / not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Allocated-no method specified</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Value to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Value to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>Blank to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>Don't know to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>Refused to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var>
+<var ID="HISPAN" dcml="0" files="ExtractData" intrvl="discrete" name="HISPAN">
+  <location EndPos="92" StartPos="90" width="3"/>
+  <labl>Hispanic origin</labl>
+  <txt><![CDATA[HISPAN identifies and classifies persons of Hispanic/Spanish/Latino origin.  Origin is ancestry, lineage, heritage, national group, or country of birth.   
+
+Prior to 2003, information was collected by asking, "What is the origin or descent of each person in this household?" and asking the respondent to select the appropriate category from a limited number of choices on a flashcard (including "another group not listed.")   The choices included five to eight choices that would be classified as Hispanic, "Negro" and "Black," and a small number of European ancestry groups such as "German."  
+
+The primary intention of the question was to identify Hispanic respondents, rather than origin or descent for the general population.  Beginning in 1976, the original CPS data preserved detail for only the Hispanic responses, with all others answers lumped together as "another group not listed" (relabeled "Not Hispanic" in IPUMS-CPS). 
+
+In 2003 and later years, respondents were asked, "Are you Spanish, Hispanic, or Latino?" rather than the broad query about origin or descent.  Detailed information about Hispanic ethnicity was collected only from those who answered "yes" to this initial question.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>Not Hispanic</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>Mexican</labl>
+  </catgry>
+  <catgry>
+    <catValu>102</catValu>
+    <labl>Mexican American</labl>
+  </catgry>
+  <catgry>
+    <catValu>103</catValu>
+    <labl>Mexicano/Mexicana</labl>
+  </catgry>
+  <catgry>
+    <catValu>104</catValu>
+    <labl>Chicano/Chicana</labl>
+  </catgry>
+  <catgry>
+    <catValu>108</catValu>
+    <labl>Mexican (Mexicano)</labl>
+  </catgry>
+  <catgry>
+    <catValu>109</catValu>
+    <labl>Mexicano/Chicano</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Puerto Rican</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>Cuban</labl>
+  </catgry>
+  <catgry>
+    <catValu>400</catValu>
+    <labl>Dominican</labl>
+  </catgry>
+  <catgry>
+    <catValu>500</catValu>
+    <labl>Salvadoran</labl>
+  </catgry>
+  <catgry>
+    <catValu>600</catValu>
+    <labl>Other Hispanic</labl>
+  </catgry>
+  <catgry>
+    <catValu>610</catValu>
+    <labl>Central/South American</labl>
+  </catgry>
+  <catgry>
+    <catValu>611</catValu>
+    <labl>Central American, (excluding Salvadoran)</labl>
+  </catgry>
+  <catgry>
+    <catValu>612</catValu>
+    <labl>South American</labl>
+  </catgry>
+  <catgry>
+    <catValu>901</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+  <catgry>
+    <catValu>902</catValu>
+    <labl>N/A (and no response 1985-87)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="QHISPAN" dcml="0" files="ExtractData" intrvl="discrete" name="QHISPAN">
+  <location EndPos="94" StartPos="93" width="2"/>
+  <labl>Data quality flag for HISPAN</labl>
+  <txt><![CDATA[Data quality flag for HISPAN.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change / not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Value to value - no error</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Blank to N/A code</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Value to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Value to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Blank to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Don't know to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Refused to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var>
+<var ID="EMPSTAT" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTAT">
+  <location EndPos="96" StartPos="95" width="2"/>
+  <labl>Employment status</labl>
+  <txt><![CDATA[EMPSTAT indicates whether persons were part of the labor force--working or seeking work--and, if so, whether they were currently unemployed. The variable also provides information on the activity (e.g., doing housework, attending school,) or status (e.g., retired, unable to work) of persons not in the labor force, as well as limited additional information on those who are in the labor force (e.g. members of the Armed Forces, those with a job, but not at work last week). See LABFORCE for a dichotomous variable identifying whether a person participated in the labor force.
+
+In the CPS, individuals' employment status was determined on the basis of answers to a series of questions relating to their activities during the preceding week.  Those who reported doing any work at all for pay or profit, or working at least fifteen hours without pay in a family business or farm, were classified as "at work."  Those who did not work during the previous week but who acknowledged having a job or business from which they were temporarily absent (e.g., due to illness, vacation, bad weather, or labor dispute) were also classified as employed, under the heading "has job, not at work last week."
+
+Because the CPS is designed to measure unemployment in the civilian population, the original employment status variable in the survey classifies members of the armed forces as NIU (Not in universe).
+
+Unemployed persons make up the third element of the labor force.  Individuals were coded as unemployed if they did no work for pay or profit, did not have a job from which they were briefly absent, and either reported looking for work as their major activity during the previous week (for 1962 through 1993) or answered yes to a question about whether they had been looking for work in the past four weeks. People who were temporarily laid off from a job were also classified as unemployed. A separate CPS variable specifying whether an unemployed person had worked before or was looking for a first job was used to distinguish between "experienced" and "inexperienced" unemployed persons in IPUMS CPS.
+
+Persons who were neither employed nor unemployed fall into the residual category, "not in labor force."  Such individuals might be retired, disabled due to an illness lasting at least 6 months, occupied with other activities such as attending school or keeping house, or convinced that they are unlikely to find employment (discouraged workers).]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Armed Forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>At work</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Has job, not at work last week</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Unemployed, experienced worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Unemployed, new worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Not in labor force</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>NILF, housework</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>NILF, unable to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>NILF, school</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>NILF, other</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>NILF, unpaid, lt 15 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>NILF, retired</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EDUC" dcml="0" files="ExtractData" intrvl="discrete" name="EDUC">
+  <location EndPos="99" StartPos="97" width="3"/>
+  <labl>Educational attainment recode</labl>
+  <txt><![CDATA[EDUC indicates respondents' educational attainment, as measured by the highest year of school or degree completed. Note that completion differs from the highest year of school attendance; for example, respondents who attended 10th grade but did not finish were classified in EDUC as having completed 9th grade. 
+
+EDUC is a combination of two other variables, HIGRADE and EDUC99, which measure educational attainment in different ways.  HIGRADE is available for years prior to 1992 and gives the respondent's highest grade of school or year of college completed.  EDUC99 is available beginning in 1992 and classifies high school graduates according to their highest degree or diploma attained.  
+
+General and detailed codes are not yet available for IPUMS-CPS, but one can construct the general version of EDUC by reading only the first two columns of EDUC.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>NIU or no schooling</labl>
+  </catgry>
+  <catgry>
+    <catValu>001</catValu>
+    <labl>NIU or blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>002</catValu>
+    <labl>None or preschool</labl>
+  </catgry>
+  <catgry>
+    <catValu>010</catValu>
+    <labl>Grades 1, 2, 3, or 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>011</catValu>
+    <labl>Grade 1</labl>
+  </catgry>
+  <catgry>
+    <catValu>012</catValu>
+    <labl>Grade 2</labl>
+  </catgry>
+  <catgry>
+    <catValu>013</catValu>
+    <labl>Grade 3</labl>
+  </catgry>
+  <catgry>
+    <catValu>014</catValu>
+    <labl>Grade 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>020</catValu>
+    <labl>Grades 5 or 6</labl>
+  </catgry>
+  <catgry>
+    <catValu>021</catValu>
+    <labl>Grade 5</labl>
+  </catgry>
+  <catgry>
+    <catValu>022</catValu>
+    <labl>Grade 6</labl>
+  </catgry>
+  <catgry>
+    <catValu>030</catValu>
+    <labl>Grades 7 or 8</labl>
+  </catgry>
+  <catgry>
+    <catValu>031</catValu>
+    <labl>Grade 7</labl>
+  </catgry>
+  <catgry>
+    <catValu>032</catValu>
+    <labl>Grade 8</labl>
+  </catgry>
+  <catgry>
+    <catValu>040</catValu>
+    <labl>Grade 9</labl>
+  </catgry>
+  <catgry>
+    <catValu>050</catValu>
+    <labl>Grade 10</labl>
+  </catgry>
+  <catgry>
+    <catValu>060</catValu>
+    <labl>Grade 11</labl>
+  </catgry>
+  <catgry>
+    <catValu>070</catValu>
+    <labl>Grade 12</labl>
+  </catgry>
+  <catgry>
+    <catValu>071</catValu>
+    <labl>12th grade, no diploma</labl>
+  </catgry>
+  <catgry>
+    <catValu>072</catValu>
+    <labl>12th grade, diploma unclear</labl>
+  </catgry>
+  <catgry>
+    <catValu>073</catValu>
+    <labl>High school diploma or equivalent</labl>
+  </catgry>
+  <catgry>
+    <catValu>080</catValu>
+    <labl>1 year of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>081</catValu>
+    <labl>Some college but no degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>090</catValu>
+    <labl>2 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>091</catValu>
+    <labl>Associate's degree, occupational/vocational program</labl>
+  </catgry>
+  <catgry>
+    <catValu>092</catValu>
+    <labl>Associate's degree, academic program</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>3 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>110</catValu>
+    <labl>4 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>111</catValu>
+    <labl>Bachelor's degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>120</catValu>
+    <labl>5+ years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>121</catValu>
+    <labl>5 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>122</catValu>
+    <labl>6+ years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>123</catValu>
+    <labl>Master's degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>124</catValu>
+    <labl>Professional school degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>125</catValu>
+    <labl>Doctorate degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Missing/Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="QEDUC" dcml="0" files="ExtractData" intrvl="discrete" name="QEDUC">
+  <location EndPos="101" StartPos="100" width="2"/>
+  <labl>Data quality flag for EDUC</labl>
+  <txt><![CDATA[Data quality flag for EDUC.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var>
+</dataDscr>
+</codeBook>
